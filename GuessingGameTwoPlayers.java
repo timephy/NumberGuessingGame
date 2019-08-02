@@ -4,8 +4,8 @@ class GuessingGameTwoPlayers {
     public static void main(String[] args) {
 
         // Setup the players
-        Player player1 = new Player("Anton", 19, 'm');
-        Player player2 = new Player("Tim", 19, 'm');
+        Player player1 = new Player("PlayerOne", -1, '?');
+        Player player2 = new Player("PlayerTwo", -1, '?');
 
         // Print players
         System.out.println("The players are:");
