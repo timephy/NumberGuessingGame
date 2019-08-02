@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class GuessingGame {
     public static void main(String[] args) {
-        // Setup scanner
+        // Setup scanner with system input stream
         Scanner scanner = new Scanner(System.in);
 
         // Get amount of players
